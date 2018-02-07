@@ -12,4 +12,8 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var photoDateLabel: UILabel!
+    @IBOutlet weak var photoMonthLabel: UILabel!
+    @IBOutlet weak var photoYearLabel: UILabel!
+    @IBOutlet weak var photoYearView: UIView!
+    
 }

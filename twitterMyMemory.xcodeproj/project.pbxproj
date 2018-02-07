@@ -16,6 +16,7 @@
 		032FA375201B7F5100447FAB /* twitterMyMemoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032FA374201B7F5100447FAB /* twitterMyMemoryUITests.swift */; };
 		03C363BC201DEF990078094C /* TwitterMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C363BB201DEF990078094C /* TwitterMemoryViewController.swift */; };
 		03C363BE201E19A70078094C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C363BD201E19A70078094C /* PhotoCollectionViewCell.swift */; };
+		03C363C0201F1DB40078094C /* monthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C363BF201F1DB40078094C /* monthViewController.swift */; };
 		424E95E6294DF4CC3E33D482 /* Pods_twitterMyMemoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628847DF0C758819AC34633F /* Pods_twitterMyMemoryUITests.framework */; };
 		6B2351EB07C2CA2F532E6322 /* Pods_twitterMyMemoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C7582FE4ED98DD7A9D0B3E /* Pods_twitterMyMemoryTests.framework */; };
 		D90DC5037C49EF54990C8E3C /* Pods_twitterMyMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBA68D9D004DDDFE4CA20EF /* Pods_twitterMyMemory.framework */; };
@@ -54,6 +55,7 @@
 		032FA376201B7F5100447FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C363BB201DEF990078094C /* TwitterMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMemoryViewController.swift; sourceTree = "<group>"; };
 		03C363BD201E19A70078094C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		03C363BF201F1DB40078094C /* monthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monthViewController.swift; sourceTree = "<group>"; };
 		3A33A59C4CC51825CED1DC24 /* Pods-twitterMyMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitterMyMemory.release.xcconfig"; path = "Pods/Target Support Files/Pods-twitterMyMemory/Pods-twitterMyMemory.release.xcconfig"; sourceTree = "<group>"; };
 		3E209CB8AFD45D844F5B1296 /* Pods-twitterMyMemoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitterMyMemoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-twitterMyMemoryTests/Pods-twitterMyMemoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BBA68D9D004DDDFE4CA20EF /* Pods_twitterMyMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twitterMyMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,9 +122,10 @@
 			children = (
 				032FA354201B7F5000447FAB /* AppDelegate.swift */,
 				032FA356201B7F5000447FAB /* ViewController.swift */,
-				03C363BD201E19A70078094C /* PhotoCollectionViewCell.swift */,
 				03C363BB201DEF990078094C /* TwitterMemoryViewController.swift */,
+				03C363BD201E19A70078094C /* PhotoCollectionViewCell.swift */,
 				032FA358201B7F5000447FAB /* Main.storyboard */,
+				03C363BF201F1DB40078094C /* monthViewController.swift */,
 				032FA35B201B7F5000447FAB /* Assets.xcassets */,
 				032FA35D201B7F5000447FAB /* LaunchScreen.storyboard */,
 				032FA360201B7F5000447FAB /* Info.plist */,
@@ -353,6 +356,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-twitterMyMemory/Pods-twitterMyMemory-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
@@ -361,6 +365,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
@@ -478,6 +483,7 @@
 			files = (
 				032FA357201B7F5000447FAB /* ViewController.swift in Sources */,
 				03C363BE201E19A70078094C /* PhotoCollectionViewCell.swift in Sources */,
+				03C363C0201F1DB40078094C /* monthViewController.swift in Sources */,
 				032FA355201B7F5000447FAB /* AppDelegate.swift in Sources */,
 				03C363BC201DEF990078094C /* TwitterMemoryViewController.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ target 'twitterMyMemory' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod 'SVProgressHUD'  
-
+  pod 'SwiftDate'
 
   target 'twitterMyMemoryTests' do
     inherit! :search_paths
